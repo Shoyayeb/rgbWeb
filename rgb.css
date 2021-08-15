@@ -1,0 +1,55 @@
+.rgb {
+    animation: rgb 1s ease-in infinite;
+}
+
+@keyframes rgb {
+    0% {
+        background-color: lime;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: goldenrod;
+    }
+    
+    75% {
+        background-color: red;
+    }
+    100% {
+        background-color: purple;
+    }
+}
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#close {
+    font-size: 5px;
+    padding: 1px;
+    border: 1px solid;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+button {
+    padding: 7px;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 1px 1px 25px;
+    opacity: .9;
+   
+}
+button:hover {
+    box-shadow: 1px 1px 35px;
+    opacity: 1;
+}
